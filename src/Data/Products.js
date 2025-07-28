@@ -1,30 +1,30 @@
-import Cappuccino from "/website_images/coffee/cappuccino.png";
-import CaramelCoffeeDunkaccino from "/website_images/coffee/caramel-coffee-dunkaccino.png";
-import ClassicHotChocolate from "/website_images/coffee/classic-hot-chocolate.png";
-import DulceDeLecheLatte from "/website_images/coffee/dulce-de-leche-latte.png";
-import DunkinCoffee from "/website_images/coffee/Dunkin-Coffee.png";
-import FrozenLatte from "/website_images/coffee/frozen-latte.png";
-import IcedAmericano from "/website_images/coffee/iced-americano.png";
-import IcedCaramelMacchiatto from "/website_images/coffee/iced-caramel-macchiatto.png";
-import IcedLatte from "/website_images/coffee/iced-latte.png";
-import IcedMochaWhiteChocolate from "/website_images/coffee/iced-mocha-with-white-chocolate.png";
-import Macchiato from "/website_images/coffee/macchiato.png";
-import SignatureLatte from "/website_images/coffee/signature-latte.png";
+const Cappuccino = "/website_images/coffee/cappuccino.png";
+const CaramelCoffeeDunkaccino = "/website_images/coffee/caramel-coffee-dunkaccino.png";
+const ClassicHotChocolate = "/website_images/coffee/classic-hot-chocolate.png";
+const DulceDeLecheLatte = "/website_images/coffee/dulce-de-leche-latte.png";
+const DunkinCoffee = "/website_images/coffee/Dunkin-Coffee.png";
+const FrozenLatte = "/website_images/coffee/frozen-latte.png";
+const IcedAmericano = "/website_images/coffee/iced-americano.png";
+const IcedCaramelMacchiatto = "/website_images/coffee/iced-caramel-macchiatto.png";
+const IcedLatte = "/website_images/coffee/iced-latte.png";
+const IcedMochaWhiteChocolate = "/website_images/coffee/iced-mocha-with-white-chocolate.png";
+const Macchiato = "/website_images/coffee/macchiato.png";
+const SignatureLatte = "/website_images/coffee/signature-latte.png";
 
-import Box3 from "/website_images/dounts/box-of-3.webp";
-import Box6 from "/website_images/dounts/box-of-6.webp";
-import Box12 from "/website_images/dounts/box-of-12.webp";
-import BrownBagel from "/website_images/dounts/brown-bagel-with-cream-cheese.png";
-import CaramelDonut from "/website_images/dounts/caramel-donut.jpg";
-import FilledRingBavarian from "/website_images/dounts/filled-ring-bavarian-donut.jpg";
-import FrostedSprinkles from "/website_images/dounts/frosted-sprinkles-donut.png";
+const Box3 = "/website_images/dounts/box-of-3.webp";
+const Box6 = "/website_images/dounts/box-of-6.webp";
+const Box12 = "/website_images/dounts/box-of-12.webp";
+const BrownBagel = "/website_images/dounts/brown-bagel-with-cream-cheese.png";
+const CaramelDonut = "/website_images/dounts/caramel-donut.jpg";
+const FilledRingBavarian = "/website_images/dounts/filled-ring-bavarian-donut.jpg";
+const FrostedSprinkles = "/website_images/dounts/frosted-sprinkles-donut.png";
 
-import BaconEggCheese from "/website_images/sandwiches/bacon-egg-and-cheese.png";
-import EggCheese from "/website_images/sandwiches/egg-and-cheese.png";
-import SausageEggCheese from "/website_images/sandwiches/sausage-egg-and-cheese.png";
-import SourdoughSandwich from "/website_images/sandwiches/sourdough-breakfast-sandwich.png";
-import TurkeySausage from "/website_images/sandwiches/turkey-sausage-egg-and-cheese.png";
-import WakeUp from "/website_images/sandwiches/wake-up.png";
+const BaconEggCheese = "/website_images/sandwiches/bacon-egg-and-cheese.png";
+const EggCheese = "/website_images/sandwiches/egg-and-cheese.png";
+const SausageEggCheese = "/website_images/sandwiches/sausage-egg-and-cheese.png";
+const SourdoughSandwich = "/website_images/sandwiches/sourdough-breakfast-sandwich.png";
+const TurkeySausage = "/website_images/sandwiches/turkey-sausage-egg-and-cheese.png";
+const WakeUp = "/website_images/sandwiches/wake-up.png";
 
 export const products = [
   { id: 1, name: "Cappuccino", image: Cappuccino, price: 45, category: "drinks" },
