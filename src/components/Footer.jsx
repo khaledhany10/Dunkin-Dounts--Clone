@@ -123,7 +123,7 @@ export default function Footer() {
       </div>
 
       <div className="text-center py-4 text-sm text-gray-800 border-slate-300 border-t-[1px]">
-        © {new Date().getFullYear()} Donut. All rights reserved.
+        © {new Date().getFullYear()} Donut. All rights reserved... By Khaled Hany
       </div>
     </footer>
 

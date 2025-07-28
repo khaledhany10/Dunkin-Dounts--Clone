@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import products from "../Data/Products";
+import {products} from "../Data/Products";
 import { motion } from "framer-motion";
 
 const Menu = () => {

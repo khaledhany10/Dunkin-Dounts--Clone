@@ -1,25 +1,24 @@
 import { motion } from "framer-motion";
-import iphoneweb from "/img/iphone_web.png"
-import GooglePlay from "/img/play_store.png"
-import AppStore from "/img/app_store.png"
-import donut4 from "/img/three-pink-donuts.png"
-import drinks from "/website_images/coffee/Dunkin' Coffee.png"
-import dounts from "/website_images/Dounts/Frosted Sprinkles Donut.png"
-import sandwiches from "/website_images/sandwiches/Turkey Sausage, Egg & Cheese.png"
+const iphoneweb = "/img/iphone_web.png";
+const GooglePlay = "/img/play_store.png";
+const AppStore = "/img/app_store.png";
+const donut4 = "/img/three-pink-donuts.png";
+const drinks = "/website_images/coffee/cappuccino.png";
+const dounts =  "/website_images/dounts/frosted-sprinkles-donut.png";
+const sandwiches = "/website_images/sandwiches/turkey-sausage-egg-and-cheese.png";
 
 export default function Home() {
-
   const bestfood = [
-    { img: drinks, name: "Iced Coffee" },
-    { img: dounts, name: "Chocolate Donut" },
-    { img: sandwiches, name: "Egg Sandwich" }]
-
+    { img: drinks, name: "Cappuccino.png" },
+    { img: dounts, name: "Frosted Sprinkles Donut" },
+    { img: sandwiches, name: "Turkey Sausage Egg Cheese" },
+  ];
 
   return (
     <div>
       <section className="bg-secondary py-16 px-4 text-center min-h-screen flex items-center">
         <div className="w-[85%] mx-auto flex flex-col md:flex-row items-center justify-between gap-10 text-start">
-          <div className="flex-1 space-y-5" >
+          <div className="flex-1 space-y-5">
             <motion.h1
               className="text-2xl sm:text-3xl md:text-6xl font-bold text-primary mb-4"
               initial={{ y: -80, opacity: 0 }}
@@ -28,10 +27,10 @@ export default function Home() {
                 type: "spring",
                 stiffness: 80,
                 damping: 20,
-                mass: 2
+                mass: 2,
               }}
             >
-              Welcome to Dunkin' Dounts!
+              Welcome to Dunkin Donuts!
             </motion.h1>
             <motion.p
               className="text-base sm:text-lg md:text-2xl mb-6 text-gray-700"
@@ -41,7 +40,7 @@ export default function Home() {
                 type: "spring",
                 stiffness: 50,
                 damping: 20,
-                mass: 0.8
+                mass: 0.8,
               }}
             >
               Raised ring donut with strawberry frosting and colorful round sprinkles.
@@ -57,7 +56,7 @@ export default function Home() {
                   stiffness: 200,
                   damping: 20,
                   delay: 0.5,
-                  mass: 3
+                  mass: 3,
                 }}
               >
                 Order Now
@@ -72,7 +71,7 @@ export default function Home() {
                   stiffness: 200,
                   damping: 20,
                   delay: 0.3,
-                  mass: 3
+                  mass: 3,
                 }}
               >
                 View Menu
@@ -136,7 +135,7 @@ export default function Home() {
               whileInView={{ scale: 1, opacity: 1 }}
               transition={{ duration: 0.6, delay: i * 0.2 }}
             >
-              <img src={img} className="mx-auto w-48 mb-2" />
+              <img src={img} className="mx-auto w-48 mb-2" alt={name} />
               <p className="text-xl font-semibold text-primary">{name}</p>
             </motion.div>
           ))}
@@ -151,7 +150,7 @@ export default function Home() {
             type: "spring",
             stiffness: 200,
             damping: 20,
-            mass: 0.8
+            mass: 0.8,
           }}
         >
           View Full Menu
@@ -159,8 +158,7 @@ export default function Home() {
       </section>
 
       <section className="flex items-center justify-around flex-wrap py-10 px-4 text-center">
-        <div
-        >
+        <div>
           <motion.div
             initial={{ opacity: 0, y: -100 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -169,7 +167,8 @@ export default function Home() {
               stiffness: 200,
               damping: 10,
               delay: 0.4,
-            }}>
+            }}
+          >
             <h2 className="text-4xl font-bold mb-4">Download Our App</h2>
             <p className="mb-4 text-2xl">Order your favorite treats on the go!</p>
           </motion.div>
