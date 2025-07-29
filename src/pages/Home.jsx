@@ -3,7 +3,7 @@ const iphoneweb = "/img/iphone_web.png";
 const GooglePlay = "/img/play_store.png";
 const AppStore = "/img/app_store.png";
 const donut4 = "/img/three-pink-donuts.png";
-const drinks = "/website_images/coffee/cappuccino.png";
+const drinks = "/website_images/coffee/Cappuccino.png";
 const dounts =  "/website_images/dounts/frosted-sprinkles-donut.png";
 const sandwiches = "/website_images/sandwiches/turkey-sausage-egg-and-cheese.png";
 
