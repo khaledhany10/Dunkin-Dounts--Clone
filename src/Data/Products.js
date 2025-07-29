@@ -1,4 +1,4 @@
-const Cappuccino = "/website_images/coffee/cappuccino.png";
+const Cappuccino = "/website_images/coffee/Cappuccino.png";
 const CaramelCoffeeDunkaccino = "/website_images/coffee/caramel-coffee-dunkaccino.png";
 const ClassicHotChocolate = "/website_images/coffee/classic-hot-chocolate.png";
 const DulceDeLecheLatte = "/website_images/coffee/dulce-de-leche-latte.png";
@@ -8,7 +8,7 @@ const IcedAmericano = "/website_images/coffee/iced-americano.png";
 const IcedCaramelMacchiatto = "/website_images/coffee/iced-caramel-macchiatto.png";
 const IcedLatte = "/website_images/coffee/iced-latte.png";
 const IcedMochaWhiteChocolate = "/website_images/coffee/iced-mocha-with-white-chocolate.png";
-const Macchiato = "/website_images/coffee/macchiato.png";
+const Macchiato = "/website_images/coffee/Macchiato.png";
 const SignatureLatte = "/website_images/coffee/signature-latte.png";
 
 const Box3 = "/website_images/dounts/box-of-3.webp";
